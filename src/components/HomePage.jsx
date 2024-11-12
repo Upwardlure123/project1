@@ -17,10 +17,10 @@ const HomePage = () => {
           Welcome back! Manage your jobs, candidates, and assessments below.
         </p>
       </header>
-
-      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <h1 className="text-3xl text-center mb-8 font-semibold">Platform Features</h1>
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
         {/* Job Management */}
-        <div className="bg-gray-100 p-8 rounded-lg shadow-lg flex flex-col justify-between hover:bg-blue-400 transition">
+        <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col justify-between hover:bg-gray-200 transition hover:scale-125 transition-all duration-500 cursor-pointer">
           <h2 className="text-2xl font-semibold text-gray-900">Job Postings</h2>
           <p className="text-gray-600 mt-4">
             Create and manage job listings. Review and edit existing posts.
@@ -29,7 +29,7 @@ const HomePage = () => {
         </div>
 
         {/* Candidate Tracking */}
-        <div className="bg-gray-100 p-8 rounded-lg shadow-lg flex flex-col justify-between hover:bg-blue-400 transition">
+        <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col justify-between hover:bg-gray-200 transition hover:scale-125 transition-all duration-500 cursor-pointer">
           <h2 className="text-2xl font-semibold text-gray-900">
             Candidate Management
           </h2>
@@ -41,7 +41,7 @@ const HomePage = () => {
         </div>
 
         {/* Assessments */}
-        <div className="bg-gray-100 p-8 rounded-lg shadow-lg flex flex-col justify-between hover:bg-blue-400 transition">
+        <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col justify-between hover:bg-gray-200 transition hover:scale-125 transition-all duration-500 cursor-pointer">
           <h2 className="text-2xl font-semibold text-gray-900">
             Assessment Management
           </h2>
