@@ -17,7 +17,7 @@ The **Admin Job Portal** is a web application built to streamline the hiring pro
    git clone https://github.com/Upwardlure123/project1.git
 2. Install dependencies:
    ```bash
-  npm install
+   npm install
 3. Start the development server:
   ```bash
   npm start
