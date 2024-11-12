@@ -19,35 +19,35 @@ The **Admin Job Portal** is a web application built to streamline the hiring pro
    ```bash
    npm install
 3. Start the development server:
-  ```bash
+   ```bash
    npm start
 
 ## File structure
-project1/
-├── public/
-│   ├── index.html
-├── src/
-│   ├── App.js
-│   ├── App.css
-│   ├── index.js
-│   ├── index.css
-│   ├── components/
-│   │   ├── Assessments
-│   │   │   ├── AssessmentManager.js
-│   │   │   ├── AssessmentModal.js
-│   ├── ├── Candidates
-│   ├── │      ├── CandidateDetail.jsx
-│   ├── │      ├── CandidateList.jsx
-│   ├── │      ├── CandidateModal.jsx
-├── ├── │    Dashboard
-│   ├── │      ├── index.jsx
-│   ├── │      ├── JobCard.jsx
-│   ├── │      ├── JobModal.jsx
-│   ├── HomePage.jsx
-│   ├── Navbar.jsx
-│   ├── utils/
-│   │   ├── constants.js
-├── .gitignore
-├── package.json
-├── README.md
+project1/ <br>
+├── public/ <br>
+│   ├── index.html <br>
+├── src/ <br>
+│   ├── App.js <br>
+│   ├── App.css <br>
+│   ├── index.js <br>
+│   ├── index.css <br>
+│   ├── components/ <br>
+│   │   ├── Assessments <br>
+│   │   │   ├── AssessmentManager.js <br>
+│   │   │   ├── AssessmentModal.js <br>
+│   ├── ├── Candidates <br>
+│   ├── │      ├── CandidateDetail.jsx <br>
+│   ├── │      ├── CandidateList.jsx <br>
+│   ├── │      ├── CandidateModal.jsx <br>
+├── ├── │    Dashboard <br>
+│   ├── │      ├── index.jsx <br>
+│   ├── │      ├── JobCard.jsx <br>
+│   ├── │      ├── JobModal.jsx <br>
+│   ├── HomePage.jsx <br>
+│   ├── Navbar.jsx <br>
+│   ├── utils/ <br>
+│   │   ├── constants.js <br>
+├── .gitignore <br>
+├── package.json <br>
+├── README.md <br>
 └── ...
