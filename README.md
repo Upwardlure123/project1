@@ -21,6 +21,9 @@ The **Admin Job Portal** is a web application built to streamline the hiring pro
 3. Start the development server:
    ```bash
    npm start
+4. Go to:
+   ```bash
+   https://localhost:3000  
 
 ## File structure
 project1/ <br>
