@@ -5,6 +5,7 @@ import Dashboard from './components/Dashboard';
 import CandidateList from './components/Candidates/CandidateList';
 import CandidateDetail from './components/Candidates/CandidateDetail';
 import AssessmentManager from './components/Assessments/AssessmentManager';
+import HomePage from './components/HomePage';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Navbar />
         <main className="container mx-auto px-4 py-8">
           <Routes>
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/jobs/:jobId/candidates" element={<CandidateList />} />
             <Route path="/candidates/:candidateId" element={<CandidateDetail />} />
             <Route path="/assessments" element={<AssessmentManager />} />

@@ -1,5 +1,5 @@
-import {create} from 'zustand';
-import { persist } from 'zustand/middleware';
+import { create } from "zustand";
+import { persist } from "zustand/middleware";
 
 const useStore = create(
   persist(
@@ -35,7 +35,7 @@ const useStore = create(
               ...candidate,
               id: Date.now(),
               jobId,
-              status: 'Under Review',
+              status: "Under Review",
               applicationDate: new Date().toISOString(),
             },
           ],
@@ -69,6 +69,13 @@ const useStore = create(
           ),
         })),
 
+      deleteAssessment: (assessmentId) =>
+        set((state) => ({
+          assessments: state.assessments.filter(
+            (assessment) => assessment.id !== assessmentId
+          ),
+        })),
+
       updateCandidate: (updatedCandidate) =>
         set((state) => ({
           candidates: state.candidates.map((candidate) =>
@@ -93,7 +100,7 @@ const useStore = create(
         })),
     }),
     {
-      name: 'hiring-platform-storage',
+      name: "hiring-platform-storage",
     }
   )
 );

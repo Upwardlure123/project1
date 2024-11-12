@@ -18,12 +18,13 @@ function Navbar() {
           </div>
 
           <div className="flex space-x-4">
+            
             <Link
-              to="/"
+              to="/dashboard"
               className="flex items-center px-3 py-2 text-gray-700 hover:text-blue-600"
             >
               <FiBriefcase className="h-5 w-5 mr-1" />
-              Jobs
+              Dashboard
             </Link>
             <Link
               to="/assessments"

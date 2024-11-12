@@ -32,7 +32,7 @@ function JobCard({ job, onEdit }) {
       <div className="mt-4 flex items-center justify-between">
         <div className="flex items-center text-gray-500">
           <FiUsers className="h-5 w-5 mr-1" />
-          <span>{job.candidates?.length || 0} candidates</span>
+          <span>{job?.candidates?.length || 0} candidates</span>
         </div>
 
         <button

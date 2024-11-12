@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import useStore from '../../store/useStore';
-import AssessmentModal from './AssessmentModal';
+import { useState } from "react";
+import useStore from "../../store/useStore";
+import AssessmentModal from "./AssessmentModal";
 // import { PencilIcon, TrashIcon } from '@heroicons/react/24/outline';
 
 function AssessmentManager() {
@@ -19,6 +19,10 @@ function AssessmentManager() {
   const handleClose = () => {
     setSelectedAssessment(null);
     setIsModalOpen(false);
+  };
+
+  const handleDelete = (id) => {
+    deleteAssessment(id);
   };
 
   return (
@@ -52,13 +56,13 @@ function AssessmentManager() {
                     onClick={() => handleEdit(assessment)}
                     className="p-1 text-gray-500 hover:text-blue-600"
                   >
-                    {/* <PencilIcon className="h-5 w-5" /> */}
+                    Edit
                   </button>
                   <button
-                    onClick={() => deleteAssessment(assessment.id)}
+                    onClick={() => handleDelete(assessment.id)}
                     className="p-1 text-gray-500 hover:text-red-600"
                   >
-                    {/* <TrashIcon className="h-5 w-5" /> */}
+                    Delete
                   </button>
                 </div>
               </div>

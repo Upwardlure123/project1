@@ -8,7 +8,6 @@ import App from "./App";
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    h11khfkajdshfkjahfkjaesbgfkjdsagvbkadsvgadskbvk
   </React.StrictMode>,
   document.getElementById("root")
 );
