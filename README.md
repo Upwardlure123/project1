@@ -14,8 +14,7 @@ The **Admin Job Portal** is a web application built to streamline the hiring pro
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo-url/admin-job-portal.git
-   cd admin-job-portal
+   git clone https://github.com/Upwardlure123/project1.git
 2. Install dependencies:
    ```bash
   npm install
