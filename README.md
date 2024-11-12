@@ -20,7 +20,7 @@ The **Admin Job Portal** is a web application built to streamline the hiring pro
    npm install
 3. Start the development server:
   ```bash
-  npm start
+   npm start
 
 ## File structure
 project1/
